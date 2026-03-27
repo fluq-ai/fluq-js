@@ -1,4 +1,4 @@
-# @fluq/sdk
+# fluq-sdk
 
 TypeScript/JavaScript SDK for [Fluq](https://fluq.ai) — AI agent fleet observability and control.
 
@@ -7,17 +7,17 @@ Fluq tells you what your agents **did**, not just what they said. Observe every 
 ## Install
 
 ```bash
-npm install @fluq/sdk
+npm install fluq-sdk
 # or
-pnpm add @fluq/sdk
+pnpm add fluq-sdk
 # or
-yarn add @fluq/sdk
+yarn add fluq-sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { Fluq } from "@fluq/sdk";
+import { Fluq } from "fluq-sdk";
 
 const fluq = new Fluq();
 
